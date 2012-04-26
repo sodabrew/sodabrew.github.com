@@ -31,7 +31,7 @@ int foo_count_letters(const char *source, size_t *count)
 First, compile your C code as position independent and symbols exported. This allows you to dlopen() the executable:
 
 {% highlight sh %}
-gcc -pie -rdynamic -o foo foo.c
+$ gcc -pie -rdynamic -o foo foo.c
 {% endhighlight %}
 
 
