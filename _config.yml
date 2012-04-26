@@ -6,3 +6,10 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 tagline: The corrosion of Aaron Stone
 url: http://sodabrew.github.com/
+
+author:
+  name: Aaron Stone
+  email: aaron@serendipity.cx
+  github: sodabrew
+  twitter: sodabrew
+  facebook: sodabrew
