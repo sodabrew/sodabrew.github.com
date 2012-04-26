@@ -22,7 +22,7 @@ Without further ado, I present
 Memcached Module. Here's a quick example script that flushed the cache for a
 page every 20 hits.
 
-{% highligh cpp %}
+{% highlight cpp %}
 import memcached;
 
 sub vcl_init {
