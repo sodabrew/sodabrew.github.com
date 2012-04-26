@@ -1,0 +1,7 @@
+---
+layout: post
+title: SSL Key Management App
+mt_id: 58
+date: 2007-11-02 14:17:14.000000000 -07:00
+---
+The crux of my SSL management headache is that I have a lot of domains, but only four public IP addresses. I bet that most home-operated sites are like that. I also have a number of different applications running -- HTTPS, SMTPS, and IMAPS in particular. For each HTTPS domain, I need to have an SSL key that is bound to that domain. But since most of the domains are virtual hosts on a single IP, I don't know the domain until after the SSL negotiation. TLS is supposed to solve some of this, I think, but there's enough SSL out there that I need to deal with it. A tool that can tell me that I have { X } number of HTTPS domains but only { X, n &gt; 0 : X-n } IPs, and allow me to pick which ones get keys, then generate the keys for me, would be grand! Furthermore, I often create convenience sub-domains for particular applications to facilitate portable DNS inside and outside of my home firewall. smtp.serendipity.cx, for example, resolves differently inside and outside my firewall. Outside the firewall, it resolves the same as serendipity.cx. Inside the firewall, it does not, since I don't NAT my servers from the inside. So I need separate SSL keys for these two domains. But they're also different apps, so there's no IP conflict. Am I making sense? Yeah, so I need an open source SSL key management app. Or I need to write one ;-)
