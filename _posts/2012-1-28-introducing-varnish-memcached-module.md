@@ -4,8 +4,8 @@ title: Introducing a Memcached Module for Varnish 3
 mt_id: 98
 date: 2012-01-28 13:01:59.000000000 -08:00
 ---
-(Varnish)[http://varnish-cache.org] makes your websites go faster.
-(Memcached)[http://memcached.org], makes your websites go faster. Blog posts
+[Varnish](http://varnish-cache.org) makes your websites go faster.
+[Memcached](http://memcached.org), makes your websites go faster. Blog posts
 abound on using Varnish's excellent embedded C functionality to link
 libmemcached into your VCLs, and Poul himself has written about his surprise in
 learning that many VCLs were actually thin wrappers around a C library where
@@ -18,7 +18,7 @@ progression that PHP took in the late 90's and early 2000's, back when PHP
 looked like a promising future.)
 
 Without further ado, I present
-(libvmod-memcached)[http://github.com/sodabrew/libvmod-memcached], a Varnish
+[libvmod-memcached](http://github.com/sodabrew/libvmod-memcached), a Varnish
 Memcached Module. Here's a quick example script that flushed the cache for a
 page every 20 hits.
 
