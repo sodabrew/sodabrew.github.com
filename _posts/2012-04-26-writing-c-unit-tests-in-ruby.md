@@ -15,14 +15,14 @@ C unit tests in Ruby using [FFI](http://github.com/ffi/ffi) and
 
 First, compile your C code as position independent and symbols exported. This allows you to dlopen() the executable:
 
-``` bash
+{% highlight bash %}
 gcc -pie -rdynamic -o foo foo.c
-```
+{% endhighlight %}
 
 
 Next, add the 'ffi' gem to your Gemset. Then write your rspec tests:
 
-``` ruby
+{% highlight ruby %}
 #!/usr/bin/env ruby
 $: << File.join(File.dirname(__FILE__))
 require 'ffi'
@@ -53,6 +53,6 @@ describe "unit tests for foo.c" do
     res.should == 1
   end
 end
-```
+{% endhighlight %}
 
 I'm excited about this approach because the tests run under 'rspec' along with the rest of your spec tests.
