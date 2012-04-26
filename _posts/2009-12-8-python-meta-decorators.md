@@ -58,7 +58,7 @@ arguments into my meta-decorator.
 
 This is the output:
 
-{% highlight plain %}
+{% highlight sh %}
 Monkey: coconut
 Zombie: brains
 Hello World
