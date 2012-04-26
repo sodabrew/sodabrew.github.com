@@ -3,3 +3,6 @@ auto: true
 server: true
 pygments: true
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+tagline: The corrosion of Aaron Stone
+url: http://sodabrew.github.com/

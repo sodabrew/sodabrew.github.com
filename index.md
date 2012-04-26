@@ -6,7 +6,6 @@ navtitle: home
 navlink: 
 navweight: 1
 description: Aaron Stone's website
-tagline: The corrosion of Aaron Stone
 ---
 {% include JB/setup %}
 
