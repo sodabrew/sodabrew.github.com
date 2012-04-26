@@ -1,4 +1,4 @@
-permalink: /:year/:i_month/:title.html
+permalink: /:year/:month/:title.html
 auto: true
 server: true
 pygments: true
