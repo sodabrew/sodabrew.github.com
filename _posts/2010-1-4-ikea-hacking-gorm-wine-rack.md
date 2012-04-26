@@ -12,12 +12,12 @@ chained together, mixed-and-matched with any part in the series, and, because
 of its simple, solid wood construction, sawed, drilled, screwed, painted, or
 stained to your heart's content.
 
-![http://farm3.static.flickr.com/2759/4251773978_abdac4dbf3_m.jpg](http://www.flickr.com/photos/sodabrew/4251773978/ "Gorm Wine and Glass Rack by sodabrew, on Flickr")
+[![Gorm Wine and Glass Rack by sodabrew, on Flickr](http://farm3.static.flickr.com/2759/4251773978_abdac4dbf3_m.jpg)](http://www.flickr.com/photos/sodabrew/4251773978/)
 For this hack, I started with a [Gorm 30"w x 13"d x 68"h kit](http://www.ikea.com/us/en/catalog/products/30058508),
 using three of the four shelves, and mixed in three more [Gorm wine rack shelves](http://www.ikea.com/us/en/catalog/products/10058514).
 Before I left Ikea, I went over to the parts department and got eight more screws to match the ones that hold the backstays onto the Gorm.
 
-![http://farm3.static.flickr.com/2748/4251786904_1256a74a7b_m.jpg](http://www.flickr.com/photos/sodabrew/4251786904/ "Adding stemware hangers to a Gorm shelf by sodabrew, on Flickr")
+[![Adding stemware hangers to a Gorm shelf by sodabrew, on Flickr](http://farm3.static.flickr.com/2748/4251786904_1256a74a7b_m.jpg)](http://www.flickr.com/photos/sodabrew/4251786904/)
 I picked up two [chrome wine glass racks](http://www.bedbathandbeyond.com/product.asp?order_num=-1&SKU=14914927)
 and a [dozen wine glasses](http://www.bedbathandbeyond.com/product.asp?order_num=-1&SKU=103162&RN=59)
 from Bed, Bath & Beyond, screwed the racks to the underside of
