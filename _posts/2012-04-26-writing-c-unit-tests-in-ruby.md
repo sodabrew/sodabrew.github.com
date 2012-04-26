@@ -13,18 +13,40 @@ want to add unit tests. In this blog post, I present a method of writing those
 C unit tests in Ruby using [FFI](http://github.com/ffi/ffi) and
 [RSpec](http://rspec.info/).
 
+{% highlight c %}
+/**
+ * This is a very silly function that clearly requires some unit tests.
+ */
+int foo_count_letters(const char *source, size_t *count)
+{
+  if (!source || !count) return 0;
+
+  for (*count = 0; *source; (*count)++, source++)
+    ;
+
+  return 1;
+}
+{% endhighlight %}
+
 First, compile your C code as position independent and symbols exported. This allows you to dlopen() the executable:
 
-{% highlight bash %}
+{% highlight sh %}
 gcc -pie -rdynamic -o foo foo.c
 {% endhighlight %}
 
 
-Next, add the 'ffi' gem to your Gemset. Then write your rspec tests:
+Next, add the FFI gem to your Gemset, in `Gemfile`:
+
+{% highlight ruby %}
+source :rubygems
+
+gem 'ffi'
+{% endhighlight %}
+
+Then write your rspec tests `spec/foo_spec.rb`:
 
 {% highlight ruby %}
 #!/usr/bin/env ruby
-$: << File.join(File.dirname(__FILE__))
 require 'ffi'
 
 # This module is your bridge from Ruby to C and back
@@ -55,4 +77,4 @@ describe "unit tests for foo.c" do
 end
 {% endhighlight %}
 
-I'm excited about this approach because the tests run under 'rspec' along with the rest of your spec tests.
+I'm excited about this approach because the tests run under `rspec` along with the rest of your spec tests.
