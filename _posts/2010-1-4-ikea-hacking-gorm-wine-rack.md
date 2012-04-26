@@ -4,8 +4,6 @@ title: ! 'Ikea Hacking: Gorm Wine Rack'
 mt_id: 92
 date: 2010-01-04 13:32:11.000000000 -08:00
 ---
-<div class="aside"><em>Gorm assembly hint: get a 10mm socket for your drill-driver.</em> ![http://ecx.images-amazon.com/images/I/31G0beqf%2BML._SL500_SS75_.jpg](http://amzn.com/B000T9U9JE "10mm nut driver") </div>
-
 Ikea has at least half a dozen options for wine storage, but its Gorm shelf
 system takes the cake for versatility. The Gorm is made of solid, unfinished
 pine, allowing you to hack it more easily than Ikea products made of cardboard,
@@ -24,4 +22,8 @@ I picked up two [chrome wine glass racks](http://www.bedbathandbeyond.com/produc
 and a [dozen wine glasses](http://www.bedbathandbeyond.com/product.asp?order_num=-1&SKU=103162&RN=59)
 from Bed, Bath & Beyond, screwed the racks to the underside of
 the top Gorm shelf (with those extra screws from Ikea), and voilà, my very own
-wine bar!  
+wine bar!
+
+<em>Gorm assembly hint: get a 10mm socket for your drill-driver.</em>
+[![10mm nut driver](http://ecx.images-amazon.com/images/I/31G0beqf%2BML._SL500_SS75_.jpg)](http://amzn.com/B000T9U9JE)
+
