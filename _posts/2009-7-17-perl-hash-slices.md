@@ -4,27 +4,29 @@ title: Perl Hash Slices
 mt_id: 84
 date: 2009-07-17 15:56:58.000000000 -07:00
 ---
-One of my favorite things to do with Perl hashes is slice them with this incredibly concise syntax. The first time I saw this, I Just Got It (TM). Lifting a chunk of text from the excellent (though dated) online book <i><a href="http://www.ebb.org/PickingUpPerl/">Picking Up Perl</a></i>, here's how it works:
+One of my favorite things to do with Perl hashes is slice them with this
+incredibly concise syntax. The first time I saw this, I Just Got It (TM).
+Lifting a chunk of text from the excellent (though dated) online book
+<i>(Picking Up Perl)[http://www.ebb.org/PickingUpPerl/]</i>, here's how it works:
 
-<h3>Slices</h3>
+### Slices
 
 It turns out you can slice hashes just like you were able to slice arrays.
 This can be useful if you need to extract a certain set of values out of a
 hash into a list.
 
-[code:perl]
+{% highlight perl %}
 use strict;
 my %table = qw/schmoe joe smith john simpson bart/;
 my @friends = @table{'schmoe', 'smith'};
 # @friends has qw/joe john/
-[/code]
+{% endhighlight %}
 
 Note the use of the <i>@</i> in front of the hash name.  This shows that we
 are indeed producing a normal list, and you can use this construct in any
 list context you would like.
 
-
-<h3>Context Considerations</h3>
+### Context Considerations
 
 We have now discussed all the different ways you can use variables in
 list and scalar context.  At this point, it might be helpful to review
