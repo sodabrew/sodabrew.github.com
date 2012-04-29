@@ -16,24 +16,24 @@ work as the man in the bottle return booth at a local supermarket. In the
 opening sequence of the film, the man is reading a poem to his class, <em>Za
 trochu lásky...</em> by Jaroslav Vrchlický.
 
-> Za trochu lásky šel bych svĕta kraj,
-šel s hlavou odkrytou a šel bych bosý,
-šel v ledu - ale v duši vĕčný máj,
-šel vichřicí - však slyšel zpívat kosy,
-šel pouští - a mĕl v srdci perly rosy.
-Za trochu lásky šel bych svĕta kraj,
-jak ten, kdo zpívá u dveří a prosí.
+> Za trochu lásky šel bych svĕta kraj,  
+šel s hlavou odkrytou a šel bych bosý,  
+šel v ledu - ale v duši vĕčný máj,  
+šel vichřicí - však slyšel zpívat kosy,  
+šel pouští - a mĕl v srdci perly rosy.  
+Za trochu lásky šel bych svĕta kraj,  
+jak ten, kdo zpívá u dveří a prosí.  
 
 I've been looking for an English translation of this poem since I saw the
 movie, and thanks to the help of the [linguaphiles](http://community.livejournal.com/linguaphiles/3983803.html)
 community of LJ, and my Czech friend Dana, I now have one!
 
-> For a bit of love, I would go to the end of the world,
-I would go bareheaded and I would go barefoot,
-I would go through the ice - but with eternal May in my soul,
-I would go through the storm - but would hear blackbirds singing,
-I would go into the wilderness - and would have of pearls or dew in the heart
-For a bit of love, I would go to the end of the world,
-as one who sings begging at the door.
+> For a bit of love, I would go to the end of the world,  
+I would go bareheaded and I would go barefoot,  
+I would go through the ice - but with eternal May in my soul,  
+I would go through the storm - but would hear blackbirds singing,  
+I would go into the wilderness - and would have of pearls or dew in the heart  
+For a bit of love, I would go to the end of the world,  
+as one who sings begging at the door.  
 
 Na zdraví!
