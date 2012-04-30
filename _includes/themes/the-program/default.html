@@ -60,6 +60,9 @@
             {% if site.author.flickr %}
 						<li class="flickr"><a href="http://flickr.com/{{ site.author.flickr }}/" rel="me">flickr.com/{{ site.author.flickr }}</a></li>
             {% endif %}
+            {% if site.author.yelp %}
+						<li class="yelp"><a href="http://{{ site.author.yelp }}.yelp.com/{{ site.author.yelp }}/" rel="me">{{ site.author.yelp }}.yelp.com</a></li>
+            {% endif %}
 					</ul>
 				</div><!-- misc -->
         {% endif %}
