@@ -14,24 +14,28 @@ call, a longjmp back to the Apache handler, or anything else at all.
 
 Here's my favorite...
 
-{% highlight perl %}
-bar.pl:
-  exit;
+### bar.pl
+{% highlight perl lineno %}
+exit;
+{% endhighlight %}
 
-Foo.pm:
+### Foo.pm
+{% highlight perl lineno %}
 package Foo;
 
 sub new {
-return bless { };
+  return bless { };
 }
 
 sub DESTROY {
-print "Foo is destroyed\n";
+  print "Foo is destroyed\n";
 }
 
 1;
+{% endhighlight %}
 
-foo.pl:
+### foo.pl
+{% highlight perl lineno %}
 use Foo;
 
 my $foo = Foo-&gt;new;
@@ -41,18 +45,18 @@ print "I have a foo!\n";
 BEGIN { *CORE::GLOBAL::exit = sub { goto EXIT; }; }
 
 eval {
-bar("bar.pl");
+  bar("bar.pl");
 }; if ($@) {
-print "$@ happens\n";
+  print "$@ happens\n";
 }
 
 print "And I'm still here\n";
 
 sub bar {
-eval require $_[0];
-EXIT:
-print "Exiting!\n";
-goto REALLY_EXIT;
+  eval require $_[0];
+  EXIT:
+  print "Exiting!\n";
+  goto REALLY_EXIT;
 }
 
 REALLY_EXIT:
@@ -60,6 +64,8 @@ REALLY_EXIT:
 
 Yep, that actually works!
 
-> I have a foo!  
-> Exiting!  
-> Foo is destroyed.  
+{% highlight text %}
+I have a foo!  
+Exiting!  
+Foo is destroyed.  
+{% endhighlight %}
