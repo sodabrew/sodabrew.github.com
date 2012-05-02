@@ -39,10 +39,10 @@ directions to get around that:
 *  Close <tt>cmd</tt>
 *  Activate by going to System -> Change product key
 
-Windows 7 64-bit runs great, uses all of the RAM and all that jazz. [Insert
+Windows 7 64-bit runs great, uses all of the RAM and all that jazz. \[Insert
 pointless argument about pointer sizes and 64-bit bloat and how I'd be better
 off with 3.5GB usable RAM at 32-bits. I don't care; everything else I touch
-these days is 64-bit. Consistency FTW.]
+these days is 64-bit. Consistency FTW.\]
 
 Finally, the 1.6GHz Turion TL-50 CPU sits in an S1G1 socket, so $20 got me a
 2GHz TL-60 with double the L1 cache and a 31W TDP, down from 35W. Runs faster,

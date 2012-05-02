@@ -4,21 +4,22 @@ title: Handling exit within an eval
 mt_id: 65
 date: 2008-03-15 17:16:24.000000000 -07:00
 ---
- So I've run into a problem with <a href="http://modperlite.org/">mod_perlite</a>, and it's that I cannot just override Perl's exit function with a straight perl_destruct call, a longjmp back to the Apache handler, or anything else at all.
-<ul>
-	<li><a href="http://theory.uwinnipeg.ca/modperl/docs/2.0/api/ModPerl/Util.html#C_exit_">Here's how it's handled in mod_perl</a>.</li>
-	<li><a href="http://www.perlmonks.org/?node_id=636127">And then there's this possible workaround using goto</a>.</li>
-	<li><a href="http://www.mail-archive.com/perl-qa-help@perl.org/msg01189.html">Shockingly, this works, too</a>.</li>
-</ul>
+So I've run into a problem with [mod_perlite](http://modperlite.org/), and it's
+that I cannot just override Perl's exit function with a straight perl_destruct
+call, a longjmp back to the Apache handler, or anything else at all.
+
+* [Here's how it's handled in mod_perl](http://theory.uwinnipeg.ca/modperl/docs/2.0/api/ModPerl/Util.html#C_exit_).
+* [And then there's this possible workaround using goto](http://www.perlmonks.org/?node_id=636127).
+* [Shockingly, this works, too](http://www.mail-archive.com/perl-qa-help@perl.org/msg01189.html).
+
 Here's my favorite...
 
+{% highlight perl %}
 bar.pl:
-<blockquote>
-<pre> exit;</pre>
-</blockquote>
+  exit;
+
 Foo.pm:
-<blockquote>
-<pre>package Foo;
+package Foo;
 
 sub new {
 return bless { };
@@ -28,11 +29,10 @@ sub DESTROY {
 print "Foo is destroyed\n";
 }
 
-1;</pre>
-</blockquote>
+1;
+
 foo.pl:
-<blockquote>
-<pre>use Foo;
+use Foo;
 
 my $foo = Foo-&gt;new;
 
@@ -55,10 +55,11 @@ print "Exiting!\n";
 goto REALLY_EXIT;
 }
 
-REALLY_EXIT:</pre>
-</blockquote>
+REALLY_EXIT:
+{% endhighlight %}
+
 Yep, that actually works!
 
-<blockquote><pre>I have a foo!
-Exiting!
-Foo is destroyed.</pre></blockquote>
+> I have a foo!  
+> Exiting!  
+> Foo is destroyed.  

@@ -7,7 +7,7 @@ date: 2009-07-17 15:56:58.000000000 -07:00
 One of my favorite things to do with Perl hashes is slice them with this
 incredibly concise syntax. The first time I saw this, I Just Got It (TM).
 Lifting a chunk of text from the excellent (though dated) online book
-<i>(Picking Up Perl)[http://www.ebb.org/PickingUpPerl/]</i>, here's how it works:
+<i>[Picking Up Perl](http://www.ebb.org/PickingUpPerl/)</i>, here's how it works:
 
 ### Slices
 
@@ -33,68 +33,24 @@ list and scalar context.  At this point, it might be helpful to review
 all the ways we have used variables in different contexts.  The table
 that follows identifies many of the ways variables are used in Perl.
 
-<TABLE>
-<TR><TD><STRONG>Expression</STRONG> </TD><TD> <STRONG>Context</STRONG> </TD><TD> <STRONG>Variable</STRONG> </TD><TD> <STRONG>Evaluates to</STRONG></TD>
-</TR>
-
-<TR><TD><CODE>$scalar</CODE> </TD><TD> scalar </TD><TD> <CODE>$scalar</CODE>, a scalar</TD>
-
-</TD><TD> the value held in <CODE>$scalar</CODE>
-
-</TR>
-
-<TR><TD><CODE>@array</CODE> </TD><TD> list </TD><TD> <CODE>@array</CODE>, an array</TD>
-
-</TD><TD> the list of values (in order) held in <CODE>@array</CODE>
-
-</TR>
-<TR><TD><CODE>@array</CODE> </TD><TD> scalar </TD><TD> <CODE>@array</CODE>, an array</TD>
-
-</TD><TD> the total number of elements in <CODE>@array</CODE> (same as
-<CODE>$#array + 1</CODE>)
-
-</TR>
-<TR><TD><CODE>$array[$x]</CODE> </TD><TD> scalar </TD><TD> <CODE>@array</CODE>, an array</TD>
-
-</TD><TD> the <CODE>($x+1)</CODE>th element of <CODE>@array</CODE>
-
-</TR>
-<TR><TD><CODE>$#array</CODE> </TD><TD> scalar </TD><TD> <CODE>@array</CODE>, an array</TD>
-
-</TD><TD> the subscript of the last element in <CODE>@array</CODE> (same as
-<CODE>@array -1</CODE>)
-
-</TR>
-<TR><TD><CODE>@array[$x, $y]</CODE> </TD><TD> list </TD><TD> <CODE>@array</CODE>, an array</TD>
-
-</TD><TD> a slice, listing two elements from <CODE>@array</CODE> (same as
-<CODE>($array[$x], $array[$y])</CODE>)
-
-</TR>
-<TR><TD><CODE>"$scalar"</CODE> </TD><TD> scalar (interpolated) </TD><TD> <CODE>$scalar</CODE>, a scalar</TD>
-
-</TD><TD> a string containing the contents of <CODE>$scalar</CODE>
-
-</TR>
-<TR><TD><CODE>"@array"</CODE> </TD><TD> scalar (interpolated) </TD><TD> <CODE>@array</CODE>, an array</TD>
-
-</TD><TD> a string containing the elements of <CODE>@array</CODE>, separated by
-spaces
+<table>
+  <tr>
+    <td><strong>Expression</strong></td>
+    <td><strong>Context</strong></td>
+    <td><strong>Variable</strong></td>
+    <td><strong>Evaluates to</strong></td>
+  </tr>
+  <tr><td><code>$scalar</code> </td><td> scalar </td><td> <code>$scalar</code>, a scalar</td><td> the value held in <code>$scalar</code></td> </tr>
+  <tr><td><code>@array</code> </td><td> list </td><td> <code>@array</code>, an array</td><td> the list of values (in order) held in <code>@array</code></td> </tr>
+  <tr><td><code>@array</code> </td><td> scalar </td><td> <code>@array</code>, an array</td><td> the total number of elements in <code>@array</code> (same as <code>$\#array + 1</code>)</td> </tr>
+  <tr><td><code>$array\[$x\]</code> </td><td> scalar </td><td> <code>@array</code>, an array</td><td> the <code>($x+1)</code>th element of <code>@array</code></td> </tr>
+  <tr><td><code>$\#array</code> </td><td> scalar </td><td> <code>@array</code>, an array</td><td> the subscript of the last element in <code>@array</code> (same as <code>@array -1</code>)</td> </tr>
+  <tr><td><code>@array\[$x, $y\]</code> </td><td> list </td><td> <code>@array</code>, an array</td><td> a slice, listing two elements from <code>@array</code> (same as <code>($array[$x], $array[$y])</code>)</td> </tr>
+  <tr><td><code>"$scalar"</code> </td><td> scalar \(interpolated\) </td><td> <code>$scalar</code>, a scalar</td><td> a string containing the contents of <code>$scalar</code></td> </tr>
+  <tr><td><code>"@array"</code> </td><td> scalar \(interpolated\) </td><td> <code>@array</code>, an array</td><td> a string containing the elements of <code>@array</code>, separated by spaces</td> </tr>
+  <tr><td><code>%hash</code> </td><td> list </td><td> <code>%hash</code>, a hash</td><td> a list of alternating keys and values from <code>%hash</code></td> </tr>
+  <tr><td><code>$hash\{$x\}</code> </td><td> scalar </td><td> <code>%hash</code>, a hash</td><td> the element from <code>%hash</code> with the key of <code>$x</code></td> </tr>
+  <tr><td><code>@hash\{$x, $y\}</code> </td><td> list </td><td> <code>%hash</code>, a hash</td><td> a slice, listing two elements from <code>%hash</code> \(same as <code>($hash\{$x\}, $hash\{$y\}\)</code></td></tr>
+</table>
 
 
-</TR>
-<TR><TD><CODE>%hash</CODE> </TD><TD> list </TD><TD> <CODE>%hash</CODE>, a hash</TD>
-
-</TD><TD> a list of alternating keys and values from <CODE>%hash</CODE>
-
-</TR>
-<TR><TD><CODE>$hash{$x}</CODE> </TD><TD> scalar </TD><TD> <CODE>%hash</CODE>, a hash</TD>
-
-</TD><TD> the element from <CODE>%hash</CODE> with the key of <CODE>$x</CODE>
-
-</TR>
-<TR><TD><CODE>@hash{$x, $y}</CODE> </TD><TD> list </TD><TD> <CODE>%hash</CODE>, a hash</TD>
-
-</TD><TD> a slice, listing two elements from <CODE>%hash</CODE> (same as
-<CODE>($hash{$x}, $hash{$y})</CODE>
-</TR></TABLE> 
