@@ -12,7 +12,7 @@ regular expression, then look up the matches in a hash table of keywords. Well,
 enough was enough, time for me to do that! The old CMU sieve-lex.l, with 56
 keywords each as its own lexer state, yielded this flex -v output:
 
-{% highlight c %}
+{% highlight text %}
 /bin/sh ../ylwrap sieve-lex.l lex.yy.c sieve-lex.c -- flex -v -s -olex.yy.c
 flex version 2.5.33 usage statistics:
 scanner options: -svB8 -Cem -olex.yy.c -Plibsieve_sieve
@@ -49,7 +49,7 @@ ident           :?[a-zA-Z_][a-zA-Z_0-9]*
 
 the flex -v output reads like this:
 
-{% highlight c %}
+{% highlight text %}
 flex version 2.5.33 usage statistics:
 scanner options: -svB8 -Cem -olex.yy.c -Plibsieve_sieve
 146/2000 NFA states
@@ -86,6 +86,7 @@ ident           [a-zA-Z_][a-zA-Z_0-9]*
 
 And flex -v says:
 
+{% highlight text %}
 flex version 2.5.33 usage statistics:
 scanner options: -svB8 -Cem -olex.yy.c -Plibsieve_sieve
 150/2000 NFA states
