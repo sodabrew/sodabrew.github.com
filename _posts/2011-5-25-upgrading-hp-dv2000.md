@@ -34,7 +34,7 @@ directions to get around that:
 * Change this key from 1 to 0:  
   <tt>HKEY_LOCAL_MACHINE/Software/Microsoft/Windows/CurrentVersion/Setup/OOBE/MediaBootInstall</tt>
 * Close <tt>regedit</tt>
-* Run </tt>cmd</tt> as Administrator
+* Run <tt>cmd</tt> as Administrator
 * Run <tt>slmgr /rearm</tt> at the command line
 * Close <tt>cmd</tt>
 * Activate by going to System -> Change product key
