@@ -29,15 +29,15 @@ caused it to lose its magic smoke. That meant my Windows 7 Upgrade edition was
 no longer valid for a clean install on a new 7200RPM drive. Follow these
 directions to get around that:
 
-*  Finish the installation with the activate-later option.
-*  Once you're up and running, run <tt>regedit</tt> as Administrator
-*  Change this key from 1 to 0:<br />
-*  HKEY_LOCAL_MACHINE/Software/Microsoft/Windows/CurrentVersion/Setup/OOBE/MediaBootInstall</tt>
-*  Close <tt>regedit</tt>
-*  Run </tt>cmd</tt> as Administrator
-*  Run <tt>slmgr /rearm</tt> at the command line
-*  Close <tt>cmd</tt>
-*  Activate by going to System -> Change product key
+* Finish the installation with the activate-later option.
+* Once you're up and running, run <tt>regedit</tt> as Administrator
+* Change this key from 1 to 0:  
+  <tt>HKEY_LOCAL_MACHINE/Software/Microsoft/Windows/CurrentVersion/Setup/OOBE/MediaBootInstall</tt>
+* Close <tt>regedit</tt>
+* Run </tt>cmd</tt> as Administrator
+* Run <tt>slmgr /rearm</tt> at the command line
+* Close <tt>cmd</tt>
+* Activate by going to System -> Change product key
 
 Windows 7 64-bit runs great, uses all of the RAM and all that jazz. \[Insert
 pointless argument about pointer sizes and 64-bit bloat and how I'd be better
