@@ -15,3 +15,10 @@ author:
   facebook: sodabrew
   pinterest: sodabrew
   yelp: sodabrew
+
+ads:
+  google:
+    client: "ca-pub-1834313190562288"
+    slot: "8867724119"
+    width: 180
+    height: 150
