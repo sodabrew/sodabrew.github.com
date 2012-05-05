@@ -23,7 +23,16 @@ ads:
     width: 180
     height: 150
 
-analytics:
-  provider: google
-  google:
-    tracking_id: "UA-11411607-1"
+JB:
+  analytics:
+    provider: google
+    google:
+      tracking_id: "UA-11411607-1"
+
+  comments:
+    provider: facebook
+    facebook:
+      admins: sodabrew
+      num_posts: 5
+      width: 580
+      colorscheme: light
