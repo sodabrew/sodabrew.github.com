@@ -23,7 +23,7 @@ ads:
     width: 180
     height: 150
 
-JB:
-  analytics:
-    google:
-      tracking_id: "UA-11411607-1"
+analytics:
+  provider: google
+  google:
+    tracking_id: "UA-11411607-1"
