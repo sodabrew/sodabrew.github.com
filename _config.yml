@@ -32,7 +32,7 @@ JB:
   comments:
     provider: facebook
     facebook:
-      admins: sodabrew
+      appid: sodabrew
       num_posts: 5
       width: 580
       colorscheme: light
