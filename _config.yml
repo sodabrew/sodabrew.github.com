@@ -5,7 +5,7 @@ pygments: true
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 title: The corrosion of Aaron Stone
-url: http://sodabrew.github.com/
+production_url: http://sodabrew.com
 
 author:
   name: Aaron Stone
