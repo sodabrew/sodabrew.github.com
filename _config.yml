@@ -13,6 +13,9 @@ author:
   pinterest: sodabrew
   yelp: sodabrew
 
+font_awesome:
+  js: 'https://use.fontawesome.com/e28a43ff56.js'
+
 ads:
   google:
     client: "ca-pub-1834313190562288"
