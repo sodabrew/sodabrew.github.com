@@ -1,8 +1,5 @@
 permalink: /:year/:month/:title.html
-auto: true
-server: true
-pygments: true
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: ["README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "vendor"]
 
 title: The corrosion of Aaron Stone
 production_url: http://sodabrew.com
