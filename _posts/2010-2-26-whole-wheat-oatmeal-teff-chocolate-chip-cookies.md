@@ -26,7 +26,7 @@ familiar, except for that teff stuff. What's that!?" Teff is a grain grown in
 Ethiopia. It's one of the most protein-dense grains, and also the smallest
 whole grain. Ethiopians use it to make their native style of bread, called
 <em>injera</em>, which I can best describe as a sourdough crêpe. Bob's Red Mill
-sells [teff flour](http://www.bobsredmill.com/teff-flour.html),
+sells [teff flour](http://www.bobsredmill.com/teff-flour.html){:rel=nofollow},
 available at most natural foods stores and Whole Foods.
 
 Next time I make this recipe, I might also throw in some frozen concentrated
