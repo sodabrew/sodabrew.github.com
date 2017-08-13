@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/sodabrew
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sodabrew.com
+  * I am sodabrew (https://keybase.io/sodabrew) on keybase.
+  * I have a public key ASDkv6vzxusxIwUtYl_dcv0YDBigmrysPMz1VSfF2-jjSAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a7ac246794992f822fc2a54f3244f7d238fe71b497e482ff6c8940f0b43e3d350a",
+      "host": "keybase.io",
+      "kid": "0120e4bfabf3c6eb3123052d625fdd72fd180c18a09abcac3cccf55527c5dbe8e3480a",
+      "uid": "fd2bf9aaaf6b281a8dd9443c89083619",
+      "username": "sodabrew"
+    },
+    "merkle_root": {
+      "ctime": 1502645298,
+      "hash": "8a546d607e25541644e4c8a8f1c97f61013f99ddc5e1de70469005daf873bd4650fc9636ec5dc1803ecbb55547a365ebf7f1266d5407e0e34219bb04539eae9d",
+      "hash_meta": "e209374d30f1fdedd041a7a9ac625f2b748b4a131fef2bcbdfcc435ff9a84ace",
+      "seqno": 1323437
+    },
+    "service": {
+      "hostname": "sodabrew.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.27"
+  },
+  "ctime": 1502645306,
+  "expire_in": 504576000,
+  "prev": "827155444617ea9b8ab86f2d82eb3d26dac4d55ee24a19c897020813a8560065",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5L+r88brMSMFLWJf3XL9GAwYoJq8rDzM9VUnxdvo40gKp3BheWxvYWTFA0R7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYTdhYzI0Njc5NDk5MmY4MjJmYzJhNTRmMzI0NGY3ZDIzOGZlNzFiNDk3ZTQ4MmZmNmM4OTQwZjBiNDNlM2QzNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTRiZmFiZjNjNmViMzEyMzA1MmQ2MjVmZGQ3MmZkMTgwYzE4YTA5YWJjYWMzY2NjZjU1NTI3YzVkYmU4ZTM0ODBhIiwidWlkIjoiZmQyYmY5YWFhZjZiMjgxYThkZDk0NDNjODkwODM2MTkiLCJ1c2VybmFtZSI6InNvZGFicmV3In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTAyNjQ1Mjk4LCJoYXNoIjoiOGE1NDZkNjA3ZTI1NTQxNjQ0ZTRjOGE4ZjFjOTdmNjEwMTNmOTlkZGM1ZTFkZTcwNDY5MDA1ZGFmODczYmQ0NjUwZmM5NjM2ZWM1ZGMxODAzZWNiYjU1NTQ3YTM2NWViZjdmMTI2NmQ1NDA3ZTBlMzQyMTliYjA0NTM5ZWFlOWQiLCJoYXNoX21ldGEiOiJlMjA5Mzc0ZDMwZjFmZGVkZDA0MWE3YTlhYzYyNWYyYjc0OGI0YTEzMWZlZjJiY2JkZmNjNDM1ZmY5YTg0YWNlIiwic2Vxbm8iOjEzMjM0Mzd9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic29kYWJyZXcuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yNyJ9LCJjdGltZSI6MTUwMjY0NTMwNiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI4MjcxNTU0NDQ2MTdlYTliOGFiODZmMmQ4MmViM2QyNmRhYzRkNTVlZTI0YTE5Yzg5NzAyMDgxM2E4NTYwMDY1Iiwic2Vxbm8iOjEzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQO3QSrq6c/vgXwIJH0exxuFpv4eAReyV6H0IO3Ej6GcTT0QanOEIX7wxkfpXlhBj/LE2rbvMT8653Gcu+fgMUAWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBTz7ypgGcQJ5xS9Md+nZ41cgSL+z9CaS9qh5RcyrG3NqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sodabrew
+
+==================================================================
